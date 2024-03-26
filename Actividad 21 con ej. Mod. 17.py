@@ -14,3 +14,6 @@ os.chdir('/users/Usuario/Desktop')
 # Se usaa la función read_csv para leer el archivo .csv
 # Este archivo es el de las películas de Netflix que hemos venido utilizando y lo ingesta en la variable df
 df = pd.read_csv('netflix_titles_2.csv')
+
+# Cambiamos de nombre la columna de DataFrame "duration_num" a "duration"
+df['duration_num'] = df['duration']
