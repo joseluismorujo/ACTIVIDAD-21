@@ -17,3 +17,6 @@ df = pd.read_csv('netflix_titles_2.csv')
 
 # Cambiamos de nombre la columna de DataFrame "duration_num" a "duration"
 df['duration_num'] = df['duration']
+
+# Cambiamos el valor de la colunma 'duration_unit'
+df['duration_unit'] = ''
